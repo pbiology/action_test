@@ -14,7 +14,7 @@ jobs:
         uses: dawidd6/action-send-mail@v3.6.1
         with:
           server_address: smtp.gu.se
-          server_port: 465
+          server_port: 993
           username: ${{secrets.EMAIL_PW}}
           password: ${{secrets.EMAIL_UNAME}}
           subject: Message from github actions.
@@ -22,3 +22,4 @@ jobs:
           from: Anders Lind <anders.lind.cgg@gu.se>
           secure: true
           body: workflow for ${{github.repository}} completed successfully!
+	  
