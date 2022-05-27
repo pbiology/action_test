@@ -15,8 +15,8 @@ jobs:
         with:
           server_address: smtp.gu.se
           server_port: 25
-          username: ${{secrets.EMAIL_PW}}
-          password: ${{secrets.EMAIL_UNAME}}
+          #username: ${{secrets.EMAIL_PW}}
+          #password: ${{secrets.EMAIL_UNAME}}
           subject: Message from github actions.
           to: anders.lind.cgg@gu.se,anders.e.lind@vgregion.se
           from: Anders Lind <anders.lind.cgg@gu.se>
