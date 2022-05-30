@@ -20,5 +20,5 @@ jobs:
           subject: Message from github actions.
           to: anders.lind.cgg@gu.se
           from: Anders Lind <anders.lind.cgg@gu.se>
-          secure: true
+          secure: false
           body: workflow for ${{github.repository}} completed successfully!	  
